@@ -1,0 +1,59 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.background {
+  background-color: black;
+  height: inherit;
+  width: inherit;
+  top: 0;
+  left: 0;
+	position: absolute;
+	z-index: -1;
+	/* pointer-events: none;	 */
+	/* this allows user to click through fore-ground to press button */
+}
+#title-box {
+	background-color: transparent;
+	min-height: 400px;
+	width: 100vw;
+	height: 900px;
+	z-index: -1;
+}
+#title-content {
+	margin-top: 200px;
+	margin: 200px 40px;
+  
+}
+@media (min-width: 768px) {
+	#title-content {
+    margin-top: 300px;    
+	}
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+#icons {
+	font-size: 175px;
+}
+.fa-dollar-sign {
+	font-size: 75px;
+}
+.parallax-window {
+	min-height: 450px;
+	background: transparent;
+	width: 100%;
+}
+img {
+	min-height: 400px;
+	width: 100vw;
+}
+p {
+	font-size: 1.6rem;
+}
+
+a {
+	text-decoration: none;
+}
