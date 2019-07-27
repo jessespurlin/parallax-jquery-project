@@ -2,10 +2,11 @@ document.ready = function() {
 	Particles.init({
     selector: '.background',
     color: '#48F2E3',
-    maxParticles: 50,
-    connectParticles: true,
-    minDistance: 350,
-    sizeVariations: 3,
+    maxParticles: 40,
+		connectParticles: true,
+		maxDistance: 300,
+    minDistance: 200,
+    sizeVariations: 30,
 		// responsive: [
 		// 	{
 		// 		breakpoint: 800,
